@@ -43,4 +43,5 @@ The SQL file (`TASK-03.sql`) performs the following:
 - SELECT * FROM product WHERE Price=14999.99 AND ProductID=5;
 - SELECT * FROM product WHERE Price BETWEEN 100 AND 500;
 - SELECT * FROM product ORDER BY Price ASC;
+- SELECT * FROM product ORDER BY Price DESC LIMIT 3;
 6. Verify output in the query result pane to ensure data is filtered, sorted, and limited as expected.
